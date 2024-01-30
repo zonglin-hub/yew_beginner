@@ -1,0 +1,6 @@
+# https://doc.rust-lang.org/cargo/reference/config.html?highlight=alias#alias
+[alias]
+tests = "test -- -q"
+t = "tests"
+clippys = "clippy --all-targets"
+f = "fmt --all -- --check"
